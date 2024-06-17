@@ -1,0 +1,121 @@
+{
+ "kind": "TableSchema",
+ "id": "f941fe9e697ecd8224b20f547536126865cd5fccf65ca53593fa204e74af1469",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "Melanoma_AntiPD1_Sample_annotation.csv",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "f941fe9e697ecd8224b20f547536126865cd5fccf65ca53593fa204e74af1469"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 20,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "91378720-ef0c-4d7d-94ef-97bbcc404105",
+   "name": "filename",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "a7dc95b4-bee2-4fee-b59c-b81d2ad2c832",
+   "name": "Patient ID",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "a3417922-a383-4e29-b7b0-d16cd35f88c7",
+   "name": "Response",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "e2c4c617-30cc-4f71-ae1d-4f4c346b5cf5",
+   "name": "Patient number",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "230a70d7-e73e-4ea4-8530-5f1a0555409e",
+   "name": "Treatment",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/f9/41/f941fe9e697ecd8224b20f547536126865cd5fccf65ca53593fa204e74af1469",
+ "relation": {
+  "kind": "Relation",
+  "id": "83ff0a06-b897-490b-bc3b-02f26a5eb5e4"
+ }
+}

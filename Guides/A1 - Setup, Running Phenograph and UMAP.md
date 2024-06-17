@@ -1,0 +1,1 @@
+<iframe src="https://scribehow.com/embed/0301__How_to_perform_Clustering_and_Dimension_Reduction_in_Tercen__asDyGBtmTHq2-xjmgKPO3A" width="100%" height="640" allowfullscreen frameborder="0"></iframe>

@@ -1,0 +1,212 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "8d966c8979f37b0190ff6673591fb04d2ac8b80fb147556ef579011b68b30eb6",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "3dc23d90-d479-1034-8fce-234ed5430b43",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "8d966c8979f37b0190ff6673591fb04d2ac8b80fb147556ef579011b68b30eb6"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 2142875,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "8b024c13-cb81-4f25-8358-83ef4c89e082",
+   "name": ".ci",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "bdab2327-4186-47ae-ab3c-03cea9440b17",
+   "name": ".ri",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "b5e45642-5d2d-443c-9cf4-aa0f62786ea7",
+   "name": "ds0.value",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/8d/96/8d966c8979f37b0190ff6673591fb04d2ac8b80fb147556ef579011b68b30eb6",
+ "relation": {
+  "kind": "Relation",
+  "id": "ee01f6d6-1aa1-47b3-a6e6-32fd72d417aa"
+ },
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "GatherRelation",
+   "id": "9558a1cf-41ef-4d7b-af92-4ba837766aa5",
+   "relation": {
+    "kind": "SimpleRelation",
+    "id": "6e26dc349cdaf233e8518bbb72a4e6f17a26f451992ca86d683fc156b7c61a27",
+    "index": 0
+   },
+   "names": [
+    "CD19",
+    "CD64",
+    "CD303",
+    "CD34",
+    "CD141",
+    "CD61",
+    "CD123",
+    "CD66b",
+    "CD62L",
+    "ICAM-1",
+    "CD1c",
+    "CD86",
+    "CD14",
+    "CD11c",
+    "CD7",
+    "CD16",
+    "CD209",
+    "CD38",
+    "CD33",
+    "CD3",
+    "CD56",
+    "HLA-DR",
+    "PD-L1",
+    "CD11b",
+    "CD45"
+   ],
+   "valueName": "channel.value",
+   "variableName": "channel.variable",
+   "valueType": "double",
+   "gatherType": ""
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "event_id",
+    "type": "double"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "channel.variable",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "channel.value",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": []
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "ds0",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "Logicle",
+    "version": "1.0.0",
+    "operatorId": "0",
+    "operatorKind": "ROperator",
+    "propertyValues": [],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/tercen/logicle_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}
